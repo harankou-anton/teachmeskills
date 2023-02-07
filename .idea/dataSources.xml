@@ -22,5 +22,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/gorankov</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="les_13@localhost" uuid="c72b7ff8-17f3-4cc3-9505-f9f8ac4363dd">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/les_13</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
