@@ -20,9 +20,9 @@ def create_user(session, email: str, password: str, phone: str, age: int) -> Use
     return new_user
 
 
-def find_user(session, ids: int):
-    query = session.query(User).filter_by(id=ids).first()
-    return query.id, query.email
+def find_user(session):
+    query = session.query(User).all()
+    return query
 
 
 def add_address(session, new_address: str, new_city: str, user_id: int):
